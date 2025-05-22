@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="surface">
+<div class="calculator">
+    <div class="screen">
+<input type="text" id="output" disabled>
+    </div>
+    <button onclick="clearing('')" class="clear-button">CE</button>
+    <div class="buttons">
+        <div class="row">
+            <button onclick="touch(7)" class="button">7</button>
+            <button onclick="touch(8)" class="button">8</button>
+            <button onclick="touch(9)" class="button">9</button>
+            <button onclick="touch('-')" class="button">-</button>
+        </div>
+    <div class="row">
+            <button onclick="touch(4)" class="button">4</button>
+            <button onclick="touch(5)" class="button">5</button>
+            <button onclick="touch(6)" class="button">6</button>
+            <button onclick="touch('+')" class="button">+</button>
+    </div>
+    <div class="row">
+            <button onclick="touch(1)" class="button">1</button>
+            <button onclick="touch(2)" class="button">2</button>
+            <button onclick="touch(3)" class="button">3</button>
+            <button onclick="touch('*')" class="button">X</button>
+    </div>
+    <div class="row">
+            <button onclick="touch(0)" class="button">0</button>
+            <button onclick="touch('.')" class="button">.</button>
+            <button onclick="touch('/')" class="button">/</button>
+            <button onclick="equal()" class="button">=</button>
+    </div>
+
+ </div>
+    </div>
+</div>
+    </div>
+    
+</body>
+</html>
